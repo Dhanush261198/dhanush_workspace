@@ -1,0 +1,20 @@
+package mypackage;
+
+public class poly {
+	
+	public void intrest(float amount)
+	{
+	}
+	public void intrest(float pricipal, float rate , float time)
+	{
+		
+	}
+	public void intrest(float pricipal, float total_intrest)
+	{
+		
+		
+	}
+	
+	}
+
+

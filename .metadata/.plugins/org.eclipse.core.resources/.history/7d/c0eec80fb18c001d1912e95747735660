@@ -1,0 +1,21 @@
+package mypackage;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		String[][] rr = { { "car","truck","lorry"},
+                {"bike","scooter"}};
+                
+                for(String[] i:rr)
+                {
+                  for(String j:i)
+                  {
+                    if(j.equals(lorry))
+                    {
+                      break outer;
+                    }
+                    System.out.println(j);
+
+	}
+
+}

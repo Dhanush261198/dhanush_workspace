@@ -1,0 +1,23 @@
+package sbuilder;
+
+public class sbuild {
+
+	public static void main(String[] args) {
+		
+		StringBuilder  str = new StringBuilder ();
+		{
+		str.append("Hello People! this is a StringBuilder text");
+		System.out.println(str);
+		str.insert(13, " Welcome");
+		System.out.println(str);
+		str.replace(6,12,"Programmers");
+		System.out.println(str);
+		str.delete(33,50);
+		System.out.println(str);
+		// TODO Auto-generated method stub
+
+	}
+	}
+}
+
+
